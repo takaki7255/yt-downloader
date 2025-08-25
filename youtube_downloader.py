@@ -6,6 +6,7 @@ video_url = input("ダウンロードするYouTubeビデオのURLを入力して
 # ydl_optsでダウンロードオプションを設定
 ydl_opts = {
     "outtmpl": "downloads/%(title)s.%(ext)s",  # ダウンロード先のディレクトリとファイル名
+    "format": "mp4",  # mp4形式で保存
 }
 
 # ダウンローダーの作成
